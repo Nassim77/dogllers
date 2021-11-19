@@ -1,9 +1,9 @@
-package com.iset.dogglers
+package com.chouknassim.dogglers
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.iset.dogglers.databinding.ActivityMainBinding
+import com.chouknassim.dogglers.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

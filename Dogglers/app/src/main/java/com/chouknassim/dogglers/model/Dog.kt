@@ -1,4 +1,4 @@
-package com.iset.dogglers.model
+package com.chouknassim.dogglers.model
 
 import androidx.annotation.DrawableRes
 

@@ -1,10 +1,10 @@
-package com.iset.dogglers
+package com.chouknassim.dogglers
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.iset.dogglers.adapter.DogCardAdapter
-import com.iset.dogglers.const.Layout
-import com.iset.dogglers.databinding.ActivityHorizontalListBinding
+import com.chouknassim.dogglers.adapter.DogCardAdapter
+import com.chouknassim.dogglers.const.Layout
+import com.chouknassim.dogglers.databinding.ActivityHorizontalListBinding
 
 class HorizontalListActivity : AppCompatActivity() {
 

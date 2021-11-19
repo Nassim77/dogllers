@@ -1,4 +1,4 @@
-package com.iset.dogglers
+package com.chouknassim.dogglers
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

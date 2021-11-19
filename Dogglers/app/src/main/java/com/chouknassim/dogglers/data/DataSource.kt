@@ -1,7 +1,7 @@
-package com.iset.dogglers.data
+package com.chouknassim.dogglers.data
 
-import com.iset.dogglers.R
-import com.iset.dogglers.model.Dog
+import com.chouknassim.dogglers.R
+import com.chouknassim.dogglers.model.Dog
 
 /**
  * An object to generate a static list of dogs

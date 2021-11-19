@@ -1,4 +1,4 @@
-package com.iset.dogglers.const
+package com.chouknassim.dogglers.const
 
 
 /**

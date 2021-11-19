@@ -1,4 +1,4 @@
-package com.iset.dogglers.adapter
+package com.chouknassim.dogglers.adapter
 
 import android.content.Context
 import android.view.View
