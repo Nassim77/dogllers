@@ -15,12 +15,16 @@ class DogCardAdapter(
 ) : RecyclerView.Adapter<DogCardAdapter.DogCardViewHolder>() {
 
     // TODO: Initialize the data using the List found in data/DataSource
-
+    private val dogs = DataSource.dogs
     /**
      * Initialize view elements
      */
     class DogCardViewHolder(view: View?) : RecyclerView.ViewHolder(view!!) {
         // TODO: Declare and initialize all of the list item UI components
+        val dogImage: ImageView = view!!.findViewById(R.id.dog_image)
+        val dogName: TextView = view!!.findViewById(R.id.dog_name)
+        val dogAge: TextView = view!!.findViewById(R.id.dog_age)
+        val dogHobbies: TextView = view!!.findViewById(R.id.dog_hobbies)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogCardViewHolder {
@@ -48,4 +52,3 @@ class DogCardAdapter(
         //  Passing an argument to the string resource looks like:
         //  resources?.getString(R.string.dog_hobbies, dog.hobbies)
     }
-}
